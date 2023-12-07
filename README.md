@@ -1,2 +1,3 @@
-# dome9-json2cef-parser
-Parsing Dome9 Json Files (typically received via Webhook) into CEF Format. 
+### "CloudGuard Alert JSON to CEF Converter"
+
+This GitHub repository hosts a Python script specifically designed for Check Point's CloudGuard. It efficiently transforms JSON-formatted security alert data into the Common Event Format (CEF) string, catering to the nuanced requirements of CloudGuard alerts. The script extracts critical details such as rule name, description, severity, and source user information from the JSON data, then converts these into a standardized CEF string, suitable for integration with various security and event management systems. This tool is invaluable for cybersecurity professionals using CloudGuard, streamlining the process of alert management and analysis.
